@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <>
 
-<header className='Container'>
+<header className='Container-navbar'>
 
   <div className=''>
 
@@ -16,16 +16,7 @@ function Navbar() {
 
   </div>
 
-    <nav className='Infos'>
-
-      <li className='InfosNav'>Entrar</li>
-      <li className='separador'></li>
-      <li className='InfosNav'>Cadastrar</li>
-
-    </nav>
-    
-
-
+  <h1 className='minhaconta'>Minha Conta</h1>
 
 </header>
  
