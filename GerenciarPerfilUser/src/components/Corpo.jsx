@@ -5,7 +5,6 @@ function Corpo() {
   return (
     <div className='Corpo-container'>
       <h1 className='GerenciamentoDaconta'>Gerenciamento da conta</h1>
-      
     </div>
   )
 }

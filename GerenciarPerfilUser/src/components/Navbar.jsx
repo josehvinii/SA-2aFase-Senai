@@ -16,7 +16,7 @@ function Navbar() {
 
   </div>
 
-  <h1 className='minhaconta'>Minha Conta</h1>
+  <h1 className='gerenciamentoConta'>Gerenciamento da Conta</h1>
 
 </header>
  
