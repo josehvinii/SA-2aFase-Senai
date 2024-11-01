@@ -1,27 +1,19 @@
 import React from 'react'
 import './Navbar.css'
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <>
+    <div className='navbar-container'>
+      
+      <div className='teste'>
 
-<header className='Container-navbar'>
+      <img className='voltar' src="./img/arrow_back.png" alt="" />
+      <h1 className='gerenciamentoDaConta'>Gerenciamento da conta</h1>
 
-  <div className=''>
+      </div>
 
-    <img className='Voltar' src="./images/arrow_back.png" alt="" />
-    <img className='logo' src="./images/InKlua.png" alt="" />
+      <div><img className='logo' src="./img/InKlua.png" alt="" /></div>
 
-    
-
-  </div>
-
-  <h1 className='gerenciamentoConta'>Gerenciamento da Conta</h1>
-
-</header>
- 
-</>
+    </div>
   )
 }
-
-export default Navbar

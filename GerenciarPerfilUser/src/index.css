@@ -4,3 +4,7 @@
     --cor-3: #7B9AAB;
     --cor-4: #D9D9D9;
   }
+  body{
+    margin: 0;
+    background-color: var(--cor-4);
+  }
