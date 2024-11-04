@@ -16,10 +16,14 @@
     margin-left: 3%;
 }
 .iconUser{
-    width: 100px;
-    height: min-content;
+    width: 90px;
+    height: min-content; 
+}
+
+.alterarfoto{
     
 }
+
 .divUm{
     background-color: var(--cor-4);
     width: 100%;
@@ -35,12 +39,32 @@
     align-items: center;
 }
 .inpts{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.labelInpts{
+    display: flex;
+    font-size: 14px;
+    color: #333;
+    
+    width: 62%;
+    height: 8%;
+}
+
+.botoes{
+    display: flex; 
+    gap: 20px;
+}
+
+.botao{
+    padding: 10px 15px;
+    font-size: 14px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    height: 10%;
-    width: 50%;
-}
-.divDois > label{
-   text-align: start;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--cor-1);
 }
