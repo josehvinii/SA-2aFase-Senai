@@ -10,11 +10,17 @@ function Corpo() {
       <div className='divUm'>
 
         <div className='divDois'>
-          <img className='iconUser' src="./img/iconUser.png" />
-          <label className='alterarfoto'>Alterar foto</label>
-          <label className='labelInpts'>Nome</label> <input className='inpts' type="text" />
-          <label className='labelInpts'>Email</label><input className='inpts' type="text" />
-          <label className='labelInpts'>Senha</label><input className='inpts' type="text" />
+          <img className='iconUser' src="./img/fotoUser.png" />
+          <label className='alterarfoto'>Alterar foto <img className='iconeFoto' src="./img/iconFoto.png"/></label>
+
+          <label className='labelInpts'>Nome</label>      
+          <input className='inpts' type="text" /> <img className='iconeLapis' src="./img/iconLapis.png"/>
+
+          <label className='labelInpts'>Email</label>
+          <input className='inpts' type="text" />
+
+          <label className='labelInpts'>Senha</label>
+          <input className='inpts' type="text" />
         </div>
 
         <div className='botoes'>
