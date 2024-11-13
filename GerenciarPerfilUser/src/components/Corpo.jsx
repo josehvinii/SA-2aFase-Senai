@@ -13,16 +13,16 @@ function Corpo() {
           </label>
 
           <label className='labelInpts'>Nome</label> 
-          <input className='inpts' type="text" value="alguma pessoa da silva" />
+          <input className='inpts' type="text"/>
 
           <label className='labelInpts'>E-mail</label>
-          <input className='inpts' type="text" value="AlgumaPessoaDaSilva@gmail.com" />
+          <input className='inpts' type="text"/>
 
           <label className='labelInpts'>Senha</label>
-          <input className='inpts' type="password" value="algum@_pesso@_d@_silv@123" /> <br/>
+          <input className='inpts' type="password"/> <br/>
 
-            <button className='excluir'>EXCLUIR A CONTA</button>
             <button className='sair'>Sair da conta</button>
+            <button className='excluir'>EXCLUIR A CONTA</button>
           
         </div>
 
@@ -30,18 +30,20 @@ function Corpo() {
 
         <div className='divDois'>
           <h1 className='especificacoes'>Especificações</h1>
+
           <div className='divCheckBox'>
-            <label className='labelInpts'>Possui alguma deficiência?</label>
-            <label><input className='checkbox' type="radio" name="deficiencia" checked /> Sim</label>
+            <label className='possuiDeficiencia'>Possui alguma deficiência?</label>
+            <label><input className='checkbox' type="radio" name="deficiencia"/> Sim</label>
             <label><input className='checkbox' type="radio" name="deficiencia" /> Não</label>
           </div>
 
           <label className='labelInpts'>Deficiência:</label>
-          <input className='inpts' type="text" value="Autismo" />
+          <input className='inptsTela2' type="text" />
 
           <label className='labelInpts'>Detalhes:</label>
-          <input className='inpts' type="text" value="blablabla..." />
+          <input className='inptsTela2' type="text" />
         </div>
+
     </div>
   );
 }

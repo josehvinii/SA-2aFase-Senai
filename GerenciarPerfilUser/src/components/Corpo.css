@@ -44,8 +44,16 @@ html, body {
   color: rgb(40, 40, 40);
   font-family: "Poppins", sans-serif;
   margin: 0 0 20px 0;
+  margin-bottom: 50px;
 }
 
+.possuiDeficiencia{
+  font-size: 24px;
+  color: rgb(40, 40, 40);
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 100px 0;
+  margin-bottom: 50px;
+}
 
 .iconUser {
   width: 90px;
@@ -53,17 +61,18 @@ html, body {
   cursor: pointer;
   display: block;
   margin: 0 auto 10px;
-  margin-left: 40px;
+  margin-left: 198px;
 }
 
 .alterarfoto {
   display: block;
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
   color: #333;
   text-align: center;
   cursor: pointer;
-  margin-left: -750px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  margin-left: -430px;
 }
 
 .iconeFoto {
@@ -79,18 +88,28 @@ html, body {
   font-family: "Poppins", sans-serif;
   margin: 10px 0 5px;
   display: block;
-  margin-left: 40px;
+  margin-left: 198px;
 }
 
 .inpts {
-  width: 60%;
+  width: 50%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 14px;
   margin-bottom: 15px;
   font-family: "Poppins", sans-serif;
-  margin-left: 40px;
+  margin-left: 198px;
+}
+.inptsTela2{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-left: -120px;
 }
 
 .excluir{
@@ -103,20 +122,21 @@ html, body {
   color: var(--cor-1);
   font-family: "Poppins", sans-serif;
   background-color: var(--cor-4);
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 .sair{
   width: 300px;
   padding: 13px;
-  font-size: 14px;
+  font-size: 20px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   color: white;
   font-family: "Poppins", sans-serif;
   background-color: var(--cor-1);
-  margin-left: 15px;
+  margin-left: 198px;
+  margin-top: 10%;
 }
 
 .divLinha {
@@ -136,8 +156,11 @@ html, body {
   align-items: center;
   gap: 10px;
   margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 500px;
 }
 
 .checkbox {
   cursor: pointer;
+
 }
