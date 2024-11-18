@@ -5,11 +5,13 @@
   --cor-4: #D9D9D9;
 }
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 html, body {
   width: 100%;
@@ -17,11 +19,13 @@ html, body {
   overflow: hidden;
 }
 
+
 .Corpo-container {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
+
 
 .divUm, .divDois {
   background-color: var(--cor-4);
@@ -31,29 +35,16 @@ html, body {
   overflow-y: auto;
 }
 
+
 .dadosDaConta {
-  font-size: 24px;
+  font-size: 30px;
   color: rgb(40, 40, 40);
   font-family: "Poppins", sans-serif;
-  margin: 0 0 20px 0;
+  margin: 20px;
   margin-left: 40px;
   margin-bottom: 50px;
 }
-.especificacoes{
-  font-size: 24px;
-  color: rgb(40, 40, 40);
-  font-family: "Poppins", sans-serif;
-  margin: 0 0 20px 0;
-  margin-bottom: 50px;
-}
 
-.possuiDeficiencia{
-  font-size: 24px;
-  color: rgb(40, 40, 40);
-  font-family: "Poppins", sans-serif;
-  margin: 0 0 100px 0;
-  margin-bottom: 50px;
-}
 
 .iconUser {
   width: 90px;
@@ -63,7 +54,6 @@ html, body {
   margin: 0 auto 10px;
   margin-left: 198px;
 }
-
 .alterarfoto {
   display: block;
   font-size: 14px;
@@ -74,13 +64,22 @@ html, body {
   margin-bottom: 15px;
   margin-left: -430px;
 }
-
 .iconeFoto {
   width: 18px;
   height: 18px;
   vertical-align: middle;
   margin-left: -3px;
 }
+
+
+.verificado{
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  margin-left: 264px;
+  margin-top: -150px;
+}
+
 
 .labelInpts {
   font-size: 14px;
@@ -90,33 +89,23 @@ html, body {
   display: block;
   margin-left: 198px;
 }
-
 .inpts {
   width: 50%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 14px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   margin-left: 198px;
 }
-.inptsTela2{
-  width: 50%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 14px;
-  margin-bottom: 15px;
-  font-family: "Poppins", sans-serif;
-  margin-left: -120px;
-}
+
 
 .excluir{
   width: 160px;
   padding: 10px;
   font-size: 14px;
-  border: solid var(--cor-1);
+  border: solid 0.5px var(--cor-1);
   border-radius: 8px;
   cursor: pointer;
   color: var(--cor-1);
@@ -124,6 +113,7 @@ html, body {
   background-color: var(--cor-4);
   margin-left: 20px;
 }
+
 
 .sair{
   width: 300px;
@@ -139,11 +129,18 @@ html, body {
   margin-top: 10%;
 }
 
+
 .divLinha {
   width: 1px;
   background-color: #b9b8b8;
   height: 100%;
 }
+
+
+
+
+/*Tela2*/
+
 
 .divDois {
   display: flex;
@@ -151,16 +148,80 @@ html, body {
   align-items: center;
 }
 
-.divCheckBox {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 15px;
-  margin-left: 0px;
-  margin-right: 500px;
+
+.especificacoes{
+  font-size: 30px;
+  color: rgb(40, 40, 40);
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  margin-bottom: 50px;
+  margin-right: 70%;
 }
 
-.checkbox {
-  cursor: pointer;
 
+.possuiDeficiencia{
+  font-size: 24px;
+  color: rgb(40, 40, 40);
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 20px 0;
+  margin-bottom: 10px;
+  margin-right: 59.6%;
+  margin-bottom: 15%;
+}
+.verificado2{
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  margin: 0;
+  margin-left: -225px;
+  margin-top: -168px;
+}
+.checkBox{
+  cursor: pointer;
+  margin-right: 89.5%;
+  margin-top: 2%;
+}
+.sim{
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin-right: 82%;
+  margin-top: -14px;
+}
+.nao{
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  margin-right: 82%;
+  margin-top: -14px;
+  margin-bottom: 4%;
+}
+
+
+.deficiencia{
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin-left: -754px;
+  margin-top: 33px;
+}
+.detalhes{
+  font-size: 14px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin-left: -765px;
+  margin-top: 30px;
+}
+.inptsTela2{
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: -12px;
+  font-family: "Poppins", sans-serif;
+  margin-left: -360px;
+  margin-top: 6px;
 }
