@@ -1,5 +1,5 @@
 import './App.css'
-import Corpo from './components/Corpo'
+import Gerenciamento from './components/Gerenciamento'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Corpo/>
+    <Gerenciamento/>
     </>
   )
 }
