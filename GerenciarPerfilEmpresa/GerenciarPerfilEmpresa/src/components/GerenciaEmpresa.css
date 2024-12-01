@@ -1,0 +1,171 @@
+:root {
+    --cor-1: #024959;
+    --cor-2: #5C868F;
+    --cor-3: #7B9AAB;
+    --cor-4: #D9D9D9;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  
+  .Corpo-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  
+  .divUm, .divDois {
+    background-color: var(--cor-4);
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  
+  .dadosDaConta {
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .iconUser {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 10px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+  }
+  .alterarfoto {
+    display: block;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: -685px;
+  }
+  .iconeFoto {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: -3px;
+  }
+  .verific-empresa{
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-left: 135px;
+    margin-top: -140px;
+  }
+  
+  
+  .labelInpts {
+    font-size: 14px;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 0 5px;
+    display: block;
+    margin-left: 40px;
+  }
+  .inpts {
+    width: 150%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+  }
+  
+  .div-inptMae{
+    width: 100%;
+    display: inline-flex;
+    gap: 20%;
+    margin-left: 35px;
+  }
+  
+  .sair{
+    width: 300px;
+    padding: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--cor-1);
+    margin-left: 300px;
+    margin-top: 10%;
+  }
+  
+  
+  .divLinha {
+    width: 1px;
+    background-color: #b9b8b8;
+    height: 100%;
+  }
+  
+  
+  /*Tela2*/
+  
+  
+  .divDois {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .div-excluir{
+    position: absolute;
+    display: inline-flex;
+    justify-items: center;
+    margin-top: 0%;
+    margin-left: 40%;
+  }
+  
+  .iconLixo{
+    margin-top: -3px;
+    margin-left: -120px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .excluir{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    margin-left: -20px;
+  }
+  
+  
+  .eventos{
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+    font-family: "Poppins", sans-serif;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-right: 82%;
+  }
