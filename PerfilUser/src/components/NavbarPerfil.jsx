@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar2.css'
 
-function Navbar() {
+function NavbarPefil() {
   return (
     <div className='navbar-container'>
       
@@ -18,4 +18,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavbarPefil

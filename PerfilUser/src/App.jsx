@@ -1,12 +1,12 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import NavbarPerfil from './components/NavbarPerfil'
 import Perfil from './components/Perfil'
 
 function App() {
 
   return (
     <>
-    <Navbar/>
+    <NavbarPerfil/>
     <Perfil/>
     </>
   )
